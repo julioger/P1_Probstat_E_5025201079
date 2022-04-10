@@ -1,10 +1,10 @@
-#A
+# A
 p = 0.2
 x = 3
 P <- dgeom(x, p)
 P
 
-#B
+# B
 mean(rgeom(n = 10000, prob = p) == 3)
 mean
 
