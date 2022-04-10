@@ -17,7 +17,7 @@ hist(rexp(10000, rate = lambda), main = "Histogram Exponetial with 10000 Random 
 # C
 n = 100
 set.seed(1)
-ratarata = ratarata(rexp(n, rate = lambda))
+ratarata = mean(rexp(n, rate = lambda))
 varians = (sd(rexp(n, rate = lambda))) ^ 2
 ratarata
 varians
